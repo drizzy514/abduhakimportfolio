@@ -413,20 +413,12 @@ nav {
        
     }
 
-    @keyframes open-nav {
-
-        100% {}
-
-        0% {
-            margin-top: -600px;
-        }
-    }
 
     .nav-list {
         display: none;
         position: absolute;
-        top: 80%;
-        left: 28%;
+        top: 76%;
+        left: 24%;
         flex-direction: column;
         align-items: flex-start;
 
@@ -435,13 +427,13 @@ nav {
         height: calc(100vh - 80px);
         padding: 15px 100px;
         opacity: 0.9;
-        transition: 5s ease;
+        
 
     }
 
     .nav--active {
         display: block;
-        animation: open-nav 6s infinite;
+     
 
     }
 
